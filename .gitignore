@@ -1,0 +1,20 @@
+# Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ · 商业咨询微信 zhuatech / zhuatech2
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+backend/target/
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+
+*-backup.sql
+*.dump
+output/
+private-backups/
+*-private.sql
+*-quality-state.json
+
+.venv/
